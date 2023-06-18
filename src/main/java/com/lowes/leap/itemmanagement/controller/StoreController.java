@@ -2,11 +2,8 @@ package com.lowes.leap.itemmanagement.controller;
 
 import com.lowes.leap.itemmanagement.model.Store;
 import com.lowes.leap.itemmanagement.repository.StoreRepository;
-import com.lowes.leap.itemmanagement.service.ItemService;
 import com.lowes.leap.itemmanagement.service.StoreService;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
